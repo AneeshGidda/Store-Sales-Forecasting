@@ -64,7 +64,6 @@ def get_data(sales_data=sales_data, oil_data=oil_data, store_data=store_data, tr
         data.set_index("date", inplace=True)
         data = data.drop(columns=["store_nbr"])
         file_prefix += "s-"
-    
     return file_prefix, data
 
 # Define a function to format data into a windowed format for time series forecasting
@@ -113,7 +112,6 @@ def windowed_data_format(data, horizon=1, window_size=7, split_percentage=0.8):
     # Split data into training and testing sets
     x_train, y_train = x_data[:split_size], y_data[:split_size]
     x_test, y_test = x_data[split_size:], y_data[split_size:]
-    
     return x_train, y_train, x_test, y_test
 
 # Get data with specified features
