@@ -1,6 +1,12 @@
 # Store-Sales-Forecasting
 The Store Sales Forecasting project is a groundbreaking initiative that combines the latest advancements in deep learning with the everyday challenges faced by the retail industry. It is tailored to meet the specific needs of Favorita, a prominent retail chain operating across Ecuador
 
+## Table of Contents
+- [Project Overview](#project_overview)
+- [The Challenge](#the_challenge)
+- [The Solution](#the_solution)
+- [Dataset](#dataset)
+
 ## Project Overview
 Welcome to the Store Sales Forecasting project, a dynamic intersection of cutting-edge deep learning and the practical demands of real-world retail. This project brings the formidable N-BEATS architecture into the spotlight, offering highly accurate store sales predictions for Favorita's extensive store network in Ecuador. The project's predictive capabilities have the potential to revolutionize inventory management and revenue optimization within the retail sector
 
